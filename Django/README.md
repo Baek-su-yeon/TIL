@@ -16,6 +16,7 @@
 | **1** | **Django Basic & Template** | [1. basic&Template_251208.md](1.%20basic&Template_251208.md) (2025.12.08) | [0. Built_in_Filters_Template_Tags.md](0.%20Built_in_Filters_Template_Tags.md) |
 | **2** | **Model & Database** | [2. Model_251208.md](2.%20Model_251208.md) (2025.12.08) | [0. Field_types_&_Field_options.md](0.%20Field_types_&_Field_options.md) |
 | **3** | **ORM (Object-Relational Mapping)** | [3. ORM_251209.md](3.%20ORM_251209.md) (2025.12.09) | - |
+| **4** | **Django Form** | [4. Form_251210.md](4.%20Form_251210.md) (2025.12.10) | [0. Built_in_Widgets_251210.md](0.%20Built_in_Widgets_251210.md) |
 
 ---
 
@@ -45,3 +46,13 @@
     * **조회 메서드**: `all()` (전체), `filter()` (조건 포함, QuerySet 반환), `get()` (단일 객체 반환)
 * **Field Lookups**: `필드명__조건` 형태의 상세 조회 기술
     * `exact`, `iexact`, `contains` (포함 여부), `gt`/`lt` (대소 비교), `startswith` 등 주요 Lookup 정리
+
+### 4. Django Form
+* **Form Class**: 사용자 입력 데이터 수집, 유효성 검사 자동화, 오류 처리 등을 수행하는 도구
+* **ModelForm**: Model 클래스와 결합하여 DB 필드를 기반으로 폼을 자동 생성하는 기능
+    * **Meta Class**: 폼 동작 제어를 위해 연결할 모델(`model`)과 사용할 필드(`fields`) 정의
+    * **save()**: 데이터베이스 객체를 생성 및 저장 (instance 인자를 통해 수정 모드 지원)
+* **Widgets**: `TextInput`, `PasswordInput` 등 HTML 렌더링 방식을 제어하는 옵션
+* **Form vs ModelForm**:
+    * **Form**: DB 저장이 필요 없는 경우 (예: 로그인, 검색)
+    * **ModelForm**: DB 저장이 필요한 경우 (예: 회원가입, 게시글 작성)

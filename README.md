@@ -10,17 +10,5 @@
 | :--- | :--- | :--- |
 | `algorithm/` | **자료구조(Stack, List), 정렬/탐색 알고리즘, DP, 재귀** 등 | 기본기 확보 및 코딩 테스트 대비 |
 | `django/` | **MTV 패턴, Template Language(DTL), Model & ORM, Form/ModelForm** 등 | Django 프레임워크를 활용한 웹 애플리케이션 개발 역량 함양 |
-<<<<<<< HEAD
-| `db/` | **RDBMS 이론, SQL 기초(DQL), DDL/DML, JOIN** 등 | 관계형 데이터베이스 구조 이해 및 데이터 관리/조작 능력 배양 |
-=======
 | `db/` | **RDBMS 이론, SQL 기초(DQL), DDL/DML, JOIN** 등 | 관계형 데이터베이스 구조 이해 및 데이터 관리/조작 능력 배양 |
 
----
-
-## 🚀 향후 학습 계획
-
-1.  `django/` 및 `db/` 폴더의 심화 내용(인증, 최적화 등) 지속 업데이트
-2.  새로운 학습 주제(예: **openCV**, **C++** 등) 복습을 통한 개인 능력 향상
-
----
->>>>>>> edaa30192515ff618e569877a45cb4abe13c8cd7

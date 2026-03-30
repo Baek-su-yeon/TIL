@@ -11,8 +11,3 @@
 | **Frontend** | `JavaScript/` | ES6+ 문법(let/const), DOM 조작 및 이벤트 제어 (`1.DOM_251220.md`) |
 | **DevOps** | `git/` | 환경 전이(Office ↔ Home)를 위한 브랜치 전략 및 `switch` 커맨드 활용 |
 | **Project** | `Project_retrospect/` | **Galaxy_AI_PT**: MediaPipe 및 OpenCV 기반 AI 엔진 개발 기록 및 트러블슈팅 |
-
-## 📂 폴더 구조 및 컨벤션
-
-* **Naming Convention**: 변수 및 폴더명은 목적에 따라 camelCase, PascalCase, SNAKE_CASE를 엄격히 구분하여 사용합니다
-* **Documentation**: 모든 학습 내용은 핵심 개념 정리와 실습 코드를 포함하며, 프로젝트의 경우 설계도와 개발 회고를 동반합니다

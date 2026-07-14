@@ -1,0 +1,20 @@
+#include <stdio.h>
+int r1() {
+	return 4;
+}
+int r10() {
+	return (30 + r1());
+}
+int r100() {
+	return (200 + r10());
+}
+int main() {
+	printf("%d\n", r100());
+	// 재귀함수
+	// r100() -> 200 + r10() -> 200 + 30 + r1() -> 200 + 30 + 4 -> 234
+	return 0;
+}
+
+// 답
+// 234
+
